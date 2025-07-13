@@ -238,13 +238,13 @@ dependencies {
 
     //Glide
     implementation(libs.glide.glide)
-    implementation(libs.glide.okhttp)
+    //implementation(libs.glide.okhttp)  // Temporarily disabled due to KSP path issue
     ksp(libs.glide.ksp)
 
     //Svg
     implementation(libs.androidsvg)
-    //Glide svg plugin
-    implementation(libs.glide.svg)
+    //Glide svg plugin - temporarily commented out due to KSP path issue
+    //implementation(libs.glide.svg)
 
     //webServer
     implementation(libs.nanohttpd.nanohttpd)
